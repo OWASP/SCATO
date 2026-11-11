@@ -5,7 +5,7 @@ Get scanning in under 60 seconds.
 ## 1. Install
 
 ```bash
-git clone https://github.com/saivarun3407/SCATO.git
+git clone https://github.com/OWASP/SCATO.git
 cd SCATO
 bun install
 bun run build
@@ -42,7 +42,7 @@ node dist/index.js sbom . --output sbom.json
 Add to your GitHub Actions workflow:
 
 ```yaml
-- uses: saivarun3407/SCATO@main
+- uses: OWASP/SCATO@main
   with:
     fail-on: high
     sarif: true

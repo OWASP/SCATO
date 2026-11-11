@@ -152,7 +152,7 @@ export function createApp(): Hono {
       } else if (ecosystem === "cargo") {
         const safeName = encodeURIComponent(name);
         const res = await fetch(`https://crates.io/api/v1/crates/${safeName}`, {
-          headers: { "User-Agent": "SCATO/3.0.0 (https://github.com/saivarun3407/SCATO)" }
+          headers: { "User-Agent": "SCATO/3.0.0 (https://github.com/OWASP/SCATO)" }
         });
         if (res.ok) {
           const data = (await res.json()) as { crate?: { description?: string; newest_version?: string } };

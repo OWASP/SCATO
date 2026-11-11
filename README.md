@@ -26,7 +26,7 @@ Open source. Lightweight. Works everywhere.
 ### Option 1: Clone and run
 
 ```bash
-git clone https://github.com/saivarun3407/SCATO.git
+git clone https://github.com/OWASP/SCATO.git
 cd SCATO
 bun install
 bun run build
@@ -126,7 +126,7 @@ scato trend /path/to/project           # View vulnerability trend
 
 ```yaml
 - name: SCATO Security Scan
-  uses: saivarun3407/SCATO@main
+  uses: OWASP/SCATO@main
   with:
     fail-on: high
     sarif: true
@@ -137,7 +137,7 @@ scato trend /path/to/project           # View vulnerability trend
 
 ```bash
 # Clone and run in your CI pipeline
-git clone https://github.com/saivarun3407/SCATO.git
+git clone https://github.com/OWASP/SCATO.git
 cd SCATO && bun install && bun run build
 node dist/index.js scan /path/to/project --ci --fail-on high --json > scato-report.json
 ```
@@ -201,7 +201,7 @@ docker run --rm -p 3001:3001 scato serve --port 3001
 ## Development
 
 ```bash
-git clone https://github.com/saivarun3407/SCATO.git
+git clone https://github.com/OWASP/SCATO.git
 cd SCATO
 bun install
 bun run build          # Build to dist/
@@ -214,4 +214,4 @@ bun test               # Run tests
 
 ## License
 
-MIT
+[Apache-2.0](LICENSE)

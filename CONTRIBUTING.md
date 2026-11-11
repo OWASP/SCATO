@@ -12,7 +12,7 @@ Thank you for your interest in contributing! This document will help you get sta
 ### Setup
 
 ```bash
-git clone https://github.com/saivarun3407/SCATO.git
+git clone https://github.com/OWASP/SCATO.git
 cd SCATO
 bun install          # or: npm install
 bun run dev          # Watch mode (Bun)

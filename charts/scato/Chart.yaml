@@ -13,6 +13,6 @@ keywords:
   - vulnerability
   - sbom
   - dependency-scanning
-home: https://github.com/saivarun3407/SCATO
+home: https://github.com/OWASP/SCATO
 maintainers:
   - name: SCATO Team

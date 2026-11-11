@@ -53,10 +53,10 @@
     "compliance",
     "open-source"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saivarun3407/SCATO"
+    "url": "https://github.com/OWASP/SCATO"
   },
   "files": [
     "dist",

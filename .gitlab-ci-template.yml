@@ -5,7 +5,7 @@
 #
 # Usage:
 #   include:
-#     - remote: 'https://raw.githubusercontent.com/saivarun3407/SCATO/main/.gitlab-ci-template.yml'
+#     - remote: 'https://raw.githubusercontent.com/OWASP/SCATO/main/.gitlab-ci-template.yml'
 #
 #   scato-scan:
 #     extends: .scato-scan
